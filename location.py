@@ -20,23 +20,23 @@ def get_entry():
     url = "tut.html"
     wb.open(url)
 
-label_welcome = tk.Label(root, text="Введи координаты",
+label_welcome = tk.Label(root, text="Enter coordinates",
                          font=("Arial", 20, "bold")
                          )
 
-label_lat = tk.Label(root, text="Широта -->",
+label_lat = tk.Label(root, text="Width -->",
                      font=("Arial", 20, "bold")
                      )
 
 entry_1 = tk.Entry(root, font=("Arial", 12, "bold"))
 
-label_long = tk.Label(root, text="Долгота -->",
+label_long = tk.Label(root, text="Longitude -->",
                       font=("Arial", 20, "bold")
                       )
 
 entry_2 = tk.Entry(root, font=("Arial", 12, "bold"))
 
-butt_on = tk.Button(root, text="Показать",
+butt_on = tk.Button(root, text="Show",
                     font=("Arial", 15, "bold"),
                     command=get_entry
                     )
